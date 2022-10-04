@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="./assets/global.css">
     <link rel="stylesheet" href="./assets/iot.css">
     <link rel="stylesheet" href="./assets/footer.css">
+
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Iot</title>
 </head>
 <body>
@@ -32,14 +35,14 @@
     <!-- chip iot -->
     <section class="iot-container">
 
-        <img src="./img/raio-chip.svg" alt="" class="raio">
+        <img src="./img/raio-chip.svg" alt="" class="raio" data-aos="fade-right" data-aos-duration="3000">
 
-        <div class="texto-iot">
+        <div class="texto-iot" data-aos="zoom-in" data-aos-duration="2000">
             <h1>M2M <span class="span">mysimtravel</span></h1>
-            <h2>Top Connect e mysimtravel M2M & IoT é a solução perfeita para gestão e<br> monitoração de ativos de valor distribuídos globalmente.</h2>
+            <h2>Top Connect e mysimtravel M2M & IoT é a solução perfeita para gestão e monitoração de ativos de valor distribuídos globalmente.</h2>
         </div>
 
-        <div class="chip-iot">
+        <div class="chip-iot" data-aos="zoom-in-up" data-aos-duration="2000">
         <img src="./img/chip.svg" alt="Chip">
         </div>
     </section>
@@ -48,19 +51,19 @@
     <!-- CORPO DO SITE -->
 <main>
 
-    <article class="solucoes">
+    <article class="solucoes" data-aos="fade-right" data-aos-duration="2000">
         <h1>A Solução M2M/ Iot mysimtravel é <span class="span">completa</span></h1>
         <p>Nossas soluções de mobilidade oferecem conexões M2M & IOT combinando mais de 350 provedores de telecomunicações em uma única rede<br>móvel global.</p>
     </article>
 
 
-    <section class="cards-info">
-        <img src="./img/card-info/card cobertura.svg" alt="" srcset="">
-        <img src="./img/card-info/card gestão.svg" alt="" srcset="">
-        <img src="./img/card-info/card pagamento.svg" alt="" srcset="">
-        <img src="./img/card-info/card plano de dados.svg" alt="" srcset="">
-        <img src="./img/card-info/card segurança.svg" alt="" srcset="">
-        <img src="./img/card-info/card chip.svg" alt="" srcset="">
+    <section class="cards-info" data-aos="zoom-in" data-aos-duration="2000">
+        <div data-aos="zoom-in" data-aos-duration="1000"><img src="./img/card-info/card cobertura.svg" alt="" srcset=""></div>
+        <div data-aos="zoom-in" data-aos-duration="2000"><img src="./img/card-info/card gestão.svg" alt="" srcset=""></div>
+        <div data-aos="zoom-in" data-aos-duration="3000"><img src="./img/card-info/card pagamento.svg" alt="" srcset=""></div>
+        <div data-aos="zoom-in" data-aos-duration="1000"><img src="./img/card-info/card plano de dados.svg" alt="" srcset=""></div>
+        <div data-aos="zoom-in" data-aos-duration="2000"><img src="./img/card-info/card segurança.svg" alt="" srcset=""></div>
+        <div data-aos="zoom-in" data-aos-duration="3000"><img src="./img/card-info/card chip.svg" alt="" srcset=""></div>
     </section>
 
     <article class="info-m2m">
@@ -251,6 +254,10 @@
 
     
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 <script src="./acoordion.js"></script>
 </html>
